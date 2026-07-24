@@ -108,7 +108,7 @@ export default function Home() {
       <main className="appShell">
         <nav className="topbar">
           <button className="brand" onClick={() => { setRoom(null); setView("home"); }} aria-label="Volver al inicio">
-            <span className="brandMark">T</span><span>tierverse</span>
+            <span className="brandMark">D</span><span>DEMOCRATIER</span>
           </button>
           <div className="roomMeta">
             <span className="liveDot" /> Sala <strong>{room.code}</strong>
@@ -202,7 +202,7 @@ export default function Home() {
   return (
     <main className="landing">
       <nav className="topbar">
-        <div className="brand"><span className="brandMark">T</span><span>tierverse</span></div>
+        <div className="brand"><span className="brandMark">D</span><span>DEMOCRATIER</span></div>
         <button className="navJoin" onClick={() => setView("join")}>Unirme a una sala</button>
       </nav>
       <section className="hero">

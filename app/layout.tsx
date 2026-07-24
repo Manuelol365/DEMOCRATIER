@@ -13,12 +13,12 @@ export async function generateMetadata(): Promise<Metadata> {
   const origin = `${protocol}://${host}`;
   return {
     metadataBase: new URL(origin),
-    title: "Tierverse — La tier list multijugador",
+    title: "DEMOCRATIER — La tier list multijugador",
     description: "Crea una sala, vota con tus amigos y descubre quién entiende mejor al grupo.",
     openGraph: {
-      title: "Tierverse — La tier list multijugador",
+      title: "DEMOCRATIER — La tier list multijugador",
       description: "Crea una sala, vota con tus amigos y descubre quién entiende mejor al grupo.",
-      images: [{ url: `${origin}/og.png`, width: 1734, height: 907, alt: "Tierverse: Tus opiniones. Una tier list." }],
+      images: [{ url: `${origin}/og.png`, width: 1734, height: 907, alt: "DEMOCRATIER: Tus opiniones. Una tier list." }],
     },
     twitter: { card: "summary_large_image", images: [`${origin}/og.png`] },
   };
